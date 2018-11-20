@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>quiz</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<form class="quiz" name='quiz'>
+		<h2 class="quiz__title">myQuiz<sup>beta</sup></h2>
+		<p class="quiz__descr">Проводите викторины и&nbsp;розыгрыши в&nbsp;режиме реального времени</p>
+		<div class="section  questionOne">
+			<h3 class="quiz__subtitle">Чем и на чём пишут в русской поговорке?</h3>
+			<div class="quiz__answers">
+				<label>
+					<input type="radio" name="answerOne" value="вилами по воде">
+					<span>вилами по воде</span>
+				</label>
+				<label>
+					<input type="radio" name="answerOne" value="ухватом по песку">
+					<span>ухватом по песку</span>
+				</label>
+				<label>
+					<input type="radio" name="answerOne" value="граблями по снегу">
+					<span>граблями по снегу</span>
+				</label>
+				<label>
+					<input type="radio" name="answerOne" value="топором по дереву">
+					<span>топором по дереву</span>
+				</label>
+			</div>
+		</div>
+		<div class="section  questionTwo">
+			<h3 class="quiz__subtitle">Как в&nbsp;народе называют специальный орнамент на&nbsp;машинах такси?</h3>
+			<div class="quiz__answers">
+				<label>
+					<input type="radio" name="answerTwo" value="шашечки">
+					<span>шашечки</span>
+				</label>
+				<label>
+					<input type="radio" name="answerTwo" value="ромбики">
+					<span>ромбики</span>
+				</label>
+				<label>
+					<input type="radio" name="answerTwo" value="кубики">
+					<span>кубики</span>
+				</label>
+				<label>
+					<input type="radio" name="answerTwo" value="фишечки">
+					<span>фишечки</span>
+				</label>
+			</div>
+		</div>
+		<div class="section  section_lc  questionThree">
+			<h3 class="quiz__subtitle">В&nbsp;кого превратился братец Иванушка в&nbsp;русской народной сказке?</h3>
+			<div class="quiz__answers">
+				<label>
+					<input type="radio" name="answerThree" value="в осленка">
+					<span>в осленка</span>
+				</label>
+				<label>
+					<input type="radio" name="answerThree" value="в поросенка">
+					<span>в поросенка</span>
+				</label>
+				<label>
+					<input type="radio" name="answerThree" value="в ягненка">
+					<span>в ягненка</span>
+				</label>
+				<label>
+					<input type="radio" name="answerThree" value="в козленка">
+					<span>в козленка</span>
+				</label>
+			</div>
+		</div>
+
+		<button class="btn  btn_active  btn__show-result" type="button">Показать результат</button>
+
+		<div class="score">
+			<div class="score__close"></div>
+			<div class="correct-answers">Количество правильных ответов</div>
+			<div class="score__message"></div>
+			<div class="score__img"></div>
+			<div class="btn-group">
+				<button class="btn  btn_to-result" type="button">Ваши ответы</button>
+				<button class="btn  btn_to-start" type="button">Попробовать еще</button>
+			</div>
+		</div>
+	</form>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
